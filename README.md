@@ -1,5 +1,12 @@
 Course exercise untuk mengenali dan memahami pengembangan aplikasi di Laravel 9, serta melakukan implementasi fullstack web app development dari pembuatan Database hingga aplikasi web.
 
+## Prequisite
+1. Microsoft VS Code
+2. Node.js
+3. XAMPP
+4. Composer
+5. Git (Jika ingin menggunakan metode clone repo ini selain zip)
+
 ## Instalasi
 
 1. Install seluruh dependencies yang diperlukan dengan Composer
