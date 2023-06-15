@@ -10,12 +10,14 @@ Course exercise untuk mengenali dan memahami pengembangan aplikasi di Laravel 9,
 
 3. Generate key untuk aplikasi
     <br>"php artisan key:generate"
+
+4. Buat database di phpmyadmin (pastikan  Apache dan MySQL di XAMPP sudah dijalankan) dengan nama database disamakan dengan value DB_DATABASE yang terletak didalam .env
    
-4. Jalankan migrasi database dan lakukan seeding database (Pastikan database connection di file .env telah dikonfigurasikan)
+5. Jalankan migrasi database dan lakukan seeding database (Pastikan database connection di file .env telah dikonfigurasikan)
     <br>"php artisan migrate --seed"
 
-5. Buat Link symbolic dari public/storage ke storage/app/public agar file dapat diakses di web
+6. Buat Link symbolic dari public/storage ke storage/app/public agar file dapat diakses di web
     <br>"php artisan storage:link"
 
-6. Jalankan
+7. Jalankan
    "npm run dev" dan "php artisan serve" di terminal yang berbeda 
